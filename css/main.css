@@ -1,7 +1,30 @@
 html {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.banner {
+  overflow: hidden;
+  position:relative;
+}
+
+article {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mecha {
+  float: left;
+}
+
+.content {
+  float: right;
+  margin: 30px;
 }
